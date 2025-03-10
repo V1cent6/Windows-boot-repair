@@ -24,7 +24,7 @@ Para restaurar o boot, é preciso aceder ao Prompt de Comando através do ambien
 
 To restore the boot, you need to access the Command Prompt through the Windows recovery environment. There are several ways to do this:
 
-1️-Usando uma Pen USB Bootável com o Windows:
+##1️-Usando uma Pen USB Bootável com o Windows:
    Using a Bootable USB Pen with Windows:
 
    Se o teu sistema não arranca corretamente, podes utilizar um dispositivo USB com o Windows para       aceder ao Prompt de Comando:
@@ -48,7 +48,7 @@ To restore the boot, you need to access the Command Prompt through the Windows r
    Vai a Solução de Problemas → Opções Avançadas → Prompt de Comando.
    Go to Troubleshooting → Advanced Options → Command Prompt.
 
-2️-Se Não Tens uma Pen USB com o Windows:
+##2️-Se Não Tens uma Pen USB com o Windows:
    If you don't have a USB stick with Windows:
 
    Caso não tenhas uma pen USB, podes tentar;
