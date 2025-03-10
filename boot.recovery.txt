@@ -1,0 +1,37 @@
+		                How to restore the boot inicialization on command prompt
+		
+
+(for UEFI BIOS):
+diskpart
+
+listdisk
+select disk 0 (ou outro depende)
+list partition
+
+select partition x (tem que ser a partiçao do sistemas system tem entre 100MB a 500MB)
+assign letter=S:
+exit
+
+recriar os ficheiros boot 
+
+bcdboot C:\Windows /s S: /f UEFI
+(after showing that boot files sucessfully created )
+
+diskpart
+
+listdisk
+select disk 0 (ou outro depende)
+list partition
+
+select partition x (ou a que for)
+remove letter=S
+exit
+
+(For lagacy BIOS MBR)
+
+bootrec /fixmbr
+bootrec /fixboot
+bootrec /scanos
+bootrec /rebuildbcd
+
+
